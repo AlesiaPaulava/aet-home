@@ -23,6 +23,7 @@ h1, h2, h3, fieldset, ul, p {
 
 img {
 	max-width: 100%;
+	max-height: 500px;
 	height: auto;
 }
 
@@ -54,4 +55,22 @@ img {
 	background-position: left;
 	background-size: 24px;
 	transition: color .3s ease-in-out;
+}
+
+.project {
+	border-bottom: 1px solid #cacaca;
+}
+
+.project_name {
+	padding: 10px 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.project_descr {
+	margin-bottom: 20px;
+}
+
+.project_img {
+	margin-bottom: 20px;
 }
