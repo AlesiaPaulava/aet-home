@@ -15,7 +15,7 @@ body {
 	line-height: 1.4;
 	color: #000 ;
 	background-color: #fff;
-  }
+}
 
 h1, h2, h3, fieldset, ul, p {
 	margin: 0;
@@ -28,7 +28,7 @@ img {
 }
 
 .container {
-	max-width: 960px;
+	max-width: 760px;
 	padding: 0 20px;
 	margin: 0 auto;
 }
@@ -73,4 +73,31 @@ img {
 
 .project_img {
 	margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #212434;
+}
+
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+
+.footer_descr {
+  margin: 0;
+  padding: 0;
+	color: #fff;
+	text-align: end;
+  list-style: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%; 
+}
+
+.footer_li:not(:last-child) {
+  margin-bottom: 5px;
 }
